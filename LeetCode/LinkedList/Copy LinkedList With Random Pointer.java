@@ -3,6 +3,27 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+class Node {
+    int val;
+    Node next;
+    Node random;
+
+    Node(int val){
+        this.val = val;
+        this.next = null;
+        this.random = null;
+    }
+
+    @Override
+    public String toString() {
+        return "Node{" +
+                "val=" + val +
+                ", next=" + (next != null ? next.val : "null") +
+                ", random=" + (random != null ? random.val : "null") +
+                '}';
+    }
+}
+
 class BruteSolution{
     /*-
     Approach -1: Brute Force [Using Map]
@@ -161,3 +182,4 @@ class Main{
         System.out.println(res);
     }
 }
+
