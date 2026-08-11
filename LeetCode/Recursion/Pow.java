@@ -10,6 +10,19 @@
  * ================================================================
  */
 
+public class Pow {
+    public static void main(String[] args) {
+        Solution obj = new Solution();
+        double n1 = 2.00000;
+        int n2 = 10;
+
+        double n3 = 2;
+        int n4 = -2;
+        System.out.printf("%.4f\n", obj.myPow(n1, n2));
+        System.out.printf("%.4f\n", obj.myPow(n3, n4));
+    }
+}
+
 // ---------------------------------------------------------------
 // Iterative approach
 // ---------------------------------------------------------------
@@ -77,18 +90,5 @@ class Solution {
 
         // if n is positive
         return pow(x, N);
-    }
-}
-
-public class Pow {
-    public static void main(String[] args) {
-        Solution obj = new Solution();
-        double n1 = 2.00000;
-        int n2 = 10;
-
-        double n3 = 2;
-        int n4 = -2;
-        System.out.printf("%.4f\n", obj.myPow(n1, n2));
-        System.out.printf("%.4f\n", obj.myPow(n3, n4));
     }
 }
