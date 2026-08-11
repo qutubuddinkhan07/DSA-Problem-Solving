@@ -1,7 +1,7 @@
 # Vasilije in Cacak — Codeforces 1878C
 
 **Platform:** Codeforces  
-**Problem:** 18878C - Vasilije in Cacak **Rating:** 900
+**Problem:** 1878C - Vasilije in Cacak **Rating:** 900
 
 ## Problem Summary
 
