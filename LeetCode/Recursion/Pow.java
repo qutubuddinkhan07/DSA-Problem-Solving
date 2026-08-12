@@ -12,7 +12,7 @@
 
 public class Pow {
     public static void main(String[] args) {
-        Solution obj = new Solution();
+        RecursivePowSolution obj = new RecursivePowSolution();
         double n1 = 2.00000;
         int n2 = 10;
 
@@ -67,7 +67,7 @@ class IterativeSolution {
 // Space Complexity: O(log n) — due to recursive call stack. In the
 //                   worst case, the depth of the recursion can go up to
 //                   log(n) when n is even.
-class Solution {
+class RecursivePowSolution {
     private double pow(double x, long n) {
         if (n == 0)
             return 1.0;
