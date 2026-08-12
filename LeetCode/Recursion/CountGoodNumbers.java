@@ -3,7 +3,7 @@ public class CountGoodNumbers {
      * Solution for LeetCode 1922 - Count Good Numbers
      * https://leetcode.com/problems/count-good-numbers/
      * <p>
-     * See README.md in this directory for full explanation,
+     * See README.md in here: "LeetCode/Reading Materials/CountGoodNumbers.md" directory for full explanation,
      * dry runs, bug analysis, and complexity notes.
      */
     public static void main(String[] args) {
