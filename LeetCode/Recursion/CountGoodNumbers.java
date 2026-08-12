@@ -3,8 +3,8 @@ public class CountGoodNumbers {
      * Solution for LeetCode 1922 - Count Good Numbers
      * https://leetcode.com/problems/count-good-numbers/
      * <p>
-     * See README.md in here: "LeetCode/Reading Materials/CountGoodNumbers.md" directory for full explanation,
-     * dry runs, bug analysis, and complexity notes.
+     * Full explanation, dry runs, bug analysis, and complexity notes:
+     * https://github.com/qutubuddinkhan07/DSA-Problem-Solving/blob/517dc6ab57690c7ca07118f10e9b5e80e326f969/LeetCode/Reading%20Materials/CountGoodNumbers.md
      */
     public static void main(String[] args) {
         // MathematicalCountSolution obj = new MathematicalCountSolution();
