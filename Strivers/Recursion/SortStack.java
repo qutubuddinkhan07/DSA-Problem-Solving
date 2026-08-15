@@ -2,6 +2,7 @@ import java.util.Stack;
 
 public class SortStack {
     // Strivers Link: https://takeuforward.org/plus/dsa/problems/sort-a-stack
+    // GFG Link : https://www.geeksforgeeks.org/problems/sort-a-stack/1
     public static void main(String[] args) {
         Stack<Integer> stack = new Stack<>();
         stack.push(4);
@@ -11,7 +12,7 @@ public class SortStack {
         SortStack obj = new SortStack();
         obj.sortStack(stack);
 
-        System.out.println("Sorted stack in (desccending order): ");
+        System.out.println("Sorted stack in (ascending order): ");
         while (!stack.isEmpty()) {
             System.out.print(stack.pop() + " ");
         }
