@@ -47,7 +47,7 @@ class Main extends Solution {
 // Space Complexity: O(n) — only for s.toCharArray(); no extra
 //                    space grows with input size beyond that
 //                    (the loop itself uses O(1) auxiliary space).
-class IterativeSolution {
+class IterativeStringToIntegerSolution {
     final int max = 2147483647;
     final int min = -2147483648;
 
