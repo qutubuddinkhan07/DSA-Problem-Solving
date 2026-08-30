@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
 
-public class ExitingBets {
+public class ExcitingBets {
     private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     private static final PrintWriter out = new PrintWriter(System.out);
 
