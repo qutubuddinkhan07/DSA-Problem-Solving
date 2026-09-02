@@ -6,7 +6,8 @@ public class Permutation {
     Problem Link: https://leetcode.com/problems/permutations/description/
      */
     public static void main(String[] args) {
-        PermutationSolution obj = new PermutationSolution();
+        // PermutationSolution obj = new PermutationSolution();
+        PermutationRecursiveSolution obj = new PermutationRecursiveSolution();
         System.out.println(obj.permute(new int[]{1, 2, 3}));
     }
 }
@@ -39,4 +40,34 @@ class PermutationSolution {
     Time Complexity: O(n! * n), n! - permutations and n - number of choices
     Space Complexity: O(n) - storing the answer, O(n) auxiliary space for recursion stack
      */
+}
+
+class PermutationRecursiveSolution {
+    public List<List<Integer>> permute(int[] nums) {
+        List<List<Integer>> ans = new ArrayList<>();
+        recursivePermute(0, nums, ans);
+        return ans;
+    }
+
+    private void recursivePermute(int index, int[] arr, List<List<Integer>> ans) {
+        if (index == arr.length) {
+            List<Integer> temp = new ArrayList<>();
+            for (int i = 0; i < arr.length; i++)
+                temp.add(arr[i]);
+            ans.add(temp);
+            return;
+        }
+
+        for (int i = index; i < arr.length; i++) {
+            swap(i, index, arr);
+            recursivePermute(index + 1, arr, ans);
+            swap(i, index, arr);
+        }
+    }
+
+    private void swap(int i, int index, int[] arr) {
+        int temp = arr[i];
+        arr[i] = arr[index];
+        arr[index] = temp;
+    }
 }
