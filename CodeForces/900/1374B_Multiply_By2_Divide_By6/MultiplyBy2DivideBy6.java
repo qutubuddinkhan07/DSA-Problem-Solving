@@ -4,6 +4,9 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 
 public class MultiplyBy2DivideBy6 {
+    /*-
+    Problem Link: https://codeforces.com/contest/1374/problem/B
+     */
     private final static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     private final static PrintWriter out = new PrintWriter(System.out);
 
