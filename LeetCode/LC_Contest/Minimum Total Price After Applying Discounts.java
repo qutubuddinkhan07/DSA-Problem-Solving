@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution {
+class Solution2 {
     public double minPrice(int[] prices, int[] discounts) {
         Arrays.sort(prices);
         Arrays.sort(discounts);
@@ -18,12 +18,12 @@ class Solution {
     }
 }
 
-class Main {
+class Main2 {
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        Solution2 sol = new Solution2();
 
-        int[] prices = {10,30,21};
-        int[] discount = {50,60};
+        int[] prices = {10, 30, 21};
+        int[] discount = {50, 60};
         System.out.println(sol.minPrice(prices, discount)); // 32.5
     }
 }
