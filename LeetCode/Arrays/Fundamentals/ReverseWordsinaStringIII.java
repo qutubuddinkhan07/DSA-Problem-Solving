@@ -1,4 +1,4 @@
-package Fundamentals;
+package fundamentals;
 
 public class ReverseWordsinaStringIII {
     /* Problem Link: 557. Reverse Words in a String III [https://leetcode.com/problems/reverse-words-in-a-string-iii/description/] */

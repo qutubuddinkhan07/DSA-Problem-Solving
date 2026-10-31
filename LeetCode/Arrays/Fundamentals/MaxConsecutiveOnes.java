@@ -1,4 +1,4 @@
-package Fundamentals;
+package fundamentals;
 
 public class MaxConsecutiveOnes {
     /* Problem Link: 485. Max Consecutive Ones [https://leetcode.com/problems/max-consecutive-ones/description/] */
