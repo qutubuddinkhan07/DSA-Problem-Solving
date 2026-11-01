@@ -1,6 +1,16 @@
 package prefixSum;
 
 public class RangeSumQuery2DImmutable {
+    /*
+     * Problem:    LC 304 - Range Sum Query 2D - Immutable
+     * Link:       https://leetcode.com/problems/range-sum-query-2d-immutable/description/
+     * Pattern:    Prefix Sum
+     * Key idea:   Taking the prefix sum also the prefix array length should be of 1 + matrix length & 1 + matrix[0] length
+     * Time:       O(n), building the prefix array
+     * Space:      O(n)
+     * Solved:     after editorial
+     * Date:       31/10/26 Sat 2026
+     */
     public static void main(String[] args) {
         RangeSumQuery2DImmutableApproachI obj = new RangeSumQuery2DImmutableApproachI(new int[][]{{3, 0, 1, 4, 2}, {5, 6, 3, 2,
                 1}, {1, 2, 0, 1, 5}, {4, 1, 0, 1, 7}, {1, 0, 3, 0, 5}});
