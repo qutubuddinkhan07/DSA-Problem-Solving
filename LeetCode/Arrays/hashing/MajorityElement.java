@@ -1,6 +1,16 @@
+package hashing;
+
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+ * Problem:    LC 169 - Majority Element
+ * Link:       https://leetcode.com/problems/majority-element/description/
+ * Pattern:    Hashing
+ * Key idea:   Increasing count by one or by decreasing count by 1
+ * Solved:     own
+ * Date:       03/11/26 Tue 2026
+ */
 public class MajorityElement {
     public static void main(String[] args) {
         // BruteMajorityElementSolution obj = new BruteMajorityElementSolution();
@@ -35,7 +45,6 @@ class BruteMajorityElementSolution {
 
 class BetterMajorityElementSolution {
     /**
-     *
      * Time Complexity: O(n)
      * Space Complexity: O(n)
      */
@@ -56,7 +65,6 @@ class BetterMajorityElementSolution {
 
 class OptimalMajorityElementSolution {
     /**
-     *
      * Time Complexity: O(2n) ~ O(n)
      * Space Complexity: O(1)
      */
