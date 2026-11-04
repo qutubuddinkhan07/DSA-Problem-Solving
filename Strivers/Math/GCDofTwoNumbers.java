@@ -45,4 +45,9 @@ class GCDofTwoNumbersOptimal {
             return a;
         }
     }
+
+    // using recursion
+    public int findGCD(int a, int b) {  // Auxiliary space: O(log(min(a,b)))
+        return (b == 0) ? a : findGCD(b, a % b);
+    }
 }
