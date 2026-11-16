@@ -1,9 +1,17 @@
+package hashing;
+
 import java.math.BigInteger;
 import java.util.*;
 
+/*
+ * Problem:    LC 49 - Group Anagrams
+ * Link:       https://leetcode.com/problems/group-anagrams/description/?utm=codolio
+ * Pattern:    hashing
+ * Key idea:   everytime creating a frequency array or directly using functions getting sorted string and arranging them
+ * Solved:     with hint / after editorial
+ * Date:       12/11/26 Tue 2026
+ */
 public class GroupAnagrams {
-    /* Problem Link: Group Anagrams [https://leetcode.com/problems/group-anagrams/description/] */
-    
     public static void main(String[] args) {
         // GroupAnagramsSortedApproach obj = new GroupAnagramsSortedApproach();
         // GroupAnagramApproach2 obj = new GroupAnagramApproach2();
